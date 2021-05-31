@@ -1,0 +1,23 @@
+li.bg-dark {
+  background-color: #222222 !important;
+  border-color: #333;
+  border-top: 1px solid #333 !important;
+  border-bottom: 1px solid #333 !important;
+  border-right: 0px !important;
+  border-left: 0px !important;
+  background-color: #252525;
+}
+.list-group {
+  padding-right: 0px;
+}
+.projects-container {
+  padding: 48px;
+}
+@media screen and (max-width: 767px) {
+  .projects-container {
+    padding: 16px;
+  }
+}
+li.no-border-top {
+  border-top: none !important;
+}

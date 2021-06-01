@@ -133,7 +133,7 @@ function Resume() {
           <h1 className=" h1 ms-5 ps-2 " style={{ display: "inline" }}>
             Resume
           </h1>
-          <a href="javascript:void(0)">
+          <a href={() => false}>
             <FontAwesomeIcon
               className="download"
               size="lg"

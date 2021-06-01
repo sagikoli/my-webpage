@@ -22,6 +22,7 @@ const textCopied_toast = ({ closeToast, toastProps }) => (
 
 function Header() {
   const copyToClipboard = (event) => {
+    event.preventDefault();
     event.target.blur();
     navigator.clipboard.writeText("sagikoli@gmail.com");
     notify();
@@ -159,11 +160,7 @@ function Header() {
               </ReactTooltip>
             </li>
             <li className="nav-item me-4 header-icon-list">
-              <a
-                className="me-4"
-                href="javascript:void(0)"
-                onClick={copyToClipboard}
-              >
+              <span className="CopyEmail me-4" onClick={copyToClipboard}>
                 <FontAwesomeIcon
                   data-tip
                   data-for="emailTooltip"
@@ -173,7 +170,7 @@ function Header() {
                   fixedWidth
                 />
                 <p className="smallScreenMenuText">E-mail</p>
-              </a>
+              </span>
               <ReactTooltip
                 className="tooltip"
                 id="emailTooltip"

@@ -40,17 +40,15 @@
   color: #fff;
   font-weight: 600;
 }
-
-.profile-pic {
-  width: 90%;
-  height: auto;
-  margin: 5px;
-  border-radius: 50%;
-  border: 10px solid #333;
-  box-shadow: inset 0 0 10px black, 0 4px 8px rgba(0, 0, 0, 0.4);
+.CopyEmail {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
+  .CopyEmail {
+    cursor: pointer;
+    margin-left: 32px !important;
+  }
   .if-smallScreen-marginTop {
     margin-top: 16px;
   }

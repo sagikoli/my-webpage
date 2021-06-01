@@ -159,7 +159,11 @@ function Header() {
               </ReactTooltip>
             </li>
             <li className="nav-item me-4 header-icon-list">
-              <a className="me-4" href="/#" onClick={copyToClipboard}>
+              <a
+                className="me-4"
+                href="javascript:void(0)"
+                onClick={copyToClipboard}
+              >
                 <FontAwesomeIcon
                   data-tip
                   data-for="emailTooltip"

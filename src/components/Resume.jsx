@@ -67,11 +67,13 @@ function Resume() {
   const downloadResume = () => {
     openModal();
     axios
-      .get(`${environment.Api}/download-resume`, {
+      .get(`${environment.s3}`, {
+        responseType: "arraybuffer",
         headers: { "Content-Type": "application/pdf" },
       })
       .then((res) => {
-        const url = window.URL.createObjectURL(new Blob([res]));
+        console.log(res);
+        const url = window.URL.createObjectURL(new Blob([res.data]));
         const link = document.createElement("a");
         link.href = url;
         link.setAttribute("download", `ShashikumarKoli2021.pdf`);
@@ -133,7 +135,7 @@ function Resume() {
           <h1 className=" h1 ms-5 ps-2 " style={{ display: "inline" }}>
             Resume
           </h1>
-          <a href={() => false}>
+          <span style={{ cursor: "pointer" }}>
             <FontAwesomeIcon
               className="download"
               size="lg"
@@ -141,7 +143,7 @@ function Resume() {
               fixedWidth
               onClick={downloadResume}
             />
-          </a>
+          </span>
         </div>
       </div>
       <div className="row">

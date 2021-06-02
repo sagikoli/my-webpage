@@ -1,4 +1,4 @@
-Hosted at : http://my-web-page.s3-website.us-east-2.amazonaws.com/
+Hosted at : https://sagikoli.github.io/
 
 # Getting Started with Create React App
 

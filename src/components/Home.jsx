@@ -10,11 +10,11 @@ function Home() {
   return (
     <div className="container-fluid d-flex flex-column flex-grow-1 ">
       <div className="row justify-content-center align-items-center flex-column  flex-grow-1 ">
-        <div className="col-md-8 ">
+        <div className="col-lg-8 ">
           <div className="row align-items-center" style={{ maxHeight: "50vh" }}>
             <div className="col-lg-5 text-center">
               <img
-                style={{ display: profileLoaded ? "flex" : "none" }}
+                style={{ display: profileLoaded ? "inline" : "none" }}
                 id="profile pic"
                 className="profile-pic img-responsive"
                 src={profilePic}
@@ -35,7 +35,7 @@ function Home() {
                 </div>
               </span>
             </div>
-            <div className="col-lg-7 text-center">
+            <div className="col-lg-7 text-center summary">
               <div
                 className="if-smallScreen-marginTop"
                 style={{ textAlign: "left" }}

@@ -14,18 +14,32 @@ li.bg-dark {
   height: 8px !important;
 }
 .download {
-  color: #d3fbd8;
+  color: #769e66;
   margin-right: 32px;
 }
 .download:hover {
   cursor: pointer;
   color: #88fd97;
-  transition-duration: 200ms;
+  transition-duration: 150ms;
+}
+.h3 {
+  color: #769e66;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.h5 {
+  color: rgb(255, 255, 255) !important;
+}
+.h6 {
+  color: #d5d5d5 !important;
 }
 
 @media screen and (max-width: 767px) {
   .ms-5 {
     margin-left: 0px !important;
+  }
+  .mt-5 {
+    margin-top: 8px !important;
   }
   .ps-3 {
     padding-left: 4px !important;
@@ -37,6 +51,15 @@ li.bg-dark {
   .download {
     margin-right: 12px;
   }
+  .text-secondary {
+    font-size: small !important;
+  }
+  .h6 {
+    font-size: small !important;
+  }
+  .h5 {
+    font-size: medium !important;
+  }
 }
 
 .ReactModal__Content {
@@ -46,4 +69,8 @@ li.bg-dark {
 
 .ToastBody {
   width: fit-content;
+}
+
+.text-secondary {
+  line-height: 1.5 !important;
 }

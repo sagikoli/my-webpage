@@ -47,15 +47,20 @@
 @media screen and (max-width: 768px) {
   .CopyEmail {
     cursor: pointer;
-    margin-left: 32px !important;
+    margin-left: 8px !important;
   }
   .if-smallScreen-marginTop {
     margin-top: 16px;
   }
   li.nav-item > a {
-    margin-left: 32px !important;
+    margin-left: 8px !important;
   }
-
+  .ms-4 {
+    margin-left: 0px !important;
+  }
+  .nav-item > a.nav-link {
+    margin-left: 8px !important;
+  }
   .avatar {
     /* Center the content */
     width: 32px;

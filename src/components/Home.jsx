@@ -40,10 +40,10 @@ function Home() {
                 className="if-smallScreen-marginTop"
                 style={{ textAlign: "left" }}
               >
-                <h2>Hi,</h2>
+                <h2 className="color-dusky">Hi,</h2>
               </div>
               <div style={{ textAlign: "left" }}>
-                <p style={{ overflow: "auto" }}>
+                <p style={{ overflow: "auto" }} className="color-dusky">
                   I'm a web developer at Infosys ltd. I was always passionate
                   about coding and development and its numerous applications ,
                   which keeps me inspired to learn and try new technologies. I

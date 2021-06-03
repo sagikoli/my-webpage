@@ -38,12 +38,17 @@ function Header() {
     });
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+      style={{ padding: "16px 0px 16px 0px" }}
+    >
       <div className="container-fluid">
         <NavLink className="navbar-brand ms-4" to="/">
           <div className="logo">
             <div className="avatar">{"S"}</div>
-            <div className="logo-text">Shashikumar koli</div>
+            <div className="logo-text">
+              <span style={{ fontWeight: "bolder" }}>Shashikumar koli</span>
+            </div>
           </div>
         </NavLink>
         <button

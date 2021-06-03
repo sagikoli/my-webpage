@@ -132,7 +132,10 @@ function Resume() {
             justifyContent: "space-between",
           }}
         >
-          <h1 className=" h1 ms-5 ps-2 " style={{ display: "inline" }}>
+          <h1
+            className=" h1 ms-5 ps-2 color-dusky"
+            style={{ display: "inline", margin: "0px" }}
+          >
             Resume
           </h1>
           <span style={{ cursor: "pointer" }}>
@@ -146,17 +149,17 @@ function Resume() {
           </span>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-11 ms-5 ps-3 mt-5">
+      <div className="row ">
+        <div className="col-md-11 ms-5 ps-3 mt-2">
           <ul className="list-group list-group-flush ">
-            <li className="list-group-item bg-dark text-white no-border-top">
+            <li className="list-group-item bg-dark text-white no-border-top no-border-bot">
               <div className="h3">Experience</div>
               <ul className="list-group list-group-flush ">
                 <li className="list-group-item bg-dark text-white">
                   <div className="h5"> Infosys Ltd.</div>
                   <ul className="list-group list-group-flush ">
                     <li className="list-group-item bg-dark text-white">
-                      <div className="h6"> Digital Specialist Engineer</div>
+                      <div className="h6">Digital Specialist Engineer</div>
                       <div className="text-secondary"> Jan 2021 - Present</div>
                     </li>
                     <li className="list-group-item bg-dark text-white">
@@ -210,333 +213,248 @@ function Resume() {
                 </li>
               </ul>
             </li>
-            <li className="list-group-item bg-dark text-white ">
+            <li className="list-group-item bg-dark text-white no-border-top no-border-bot">
               <div className="h3"> Skills </div>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li
-                  className="list-group-item bg-dark text-white col-md-6 "
-                  style={{ borderTop: "1px solid #333 " }}
-                >
-                  Angular (Infosys certified angular developer)
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 90%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  JavaScript & Typescript
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 90%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row ">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  AWS (Infosys certified cloud practitioner)
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 80%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  ReactJS
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  ExpressJS (NodeJS){" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  MongoDb
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  HTML5/CSS
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "90%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  Android Development{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "60%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  Java Core(certified by NIIT){" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "60%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  C/C++ (certified by NIIT and NPTEL)
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 50%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  MySQL{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: " 75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  Git{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  Firebase{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  Redux
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "75%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  NgRx
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6">
-                  D3.js{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li
-                  className="list-group-item bg-dark text-white col-md-6 no-border-bot"
-                  style={{ borderBottom: "none" }}
-                >
-                  Mongoose.js{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-6 no-border-bot">
-                  Python{" "}
-                  <div className="progress mt-2">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "60%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </li>
-              </ul>
+              <div style={{ marginLeft: "8px", marginRight: "8px" }}>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li
+                    className="list-group-item bg-dark text-white col-md-6 "
+                    style={{ borderTop: "1px solid #333 " }}
+                  >
+                    <span className="h6">
+                      Angular (Infosys certified angular developer)
+                    </span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: " 90%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">JavaScript & Typescript</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: " 90%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul className="list-group list-group-flush list-group-horizontal row ">
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">
+                      AWS (Infosys certified cloud practitioner)
+                    </span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: " 80%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">ReactJS</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: " 75%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">ExpressJS (NodeJS)</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "75%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">MongoDb</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "75%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6">HTML5/CSS</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "90%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-6">
+                    <span className="h6"> Android Development</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "60%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-6 no-border-bot">
+                    <span className="h6">Java Core(certified by NIIT)</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: "60%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-6 no-border-bot">
+                    <span className="h6">MySQL</span>
+                    <div className="progress mt-2">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: " 75%" }}
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li className="list-group-item bg-dark text-white ">
-              <div className="h3"> Education </div>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>B.E. in Computer Science and Eng.</div>
-                  <div>CGPA : 8.93</div>
-                  <div className=" text-white ">
+            <li className="list-group-item bg-dark text-white no-border-top no-border-bot">
+              <div className="h3" style={{ paddingTop: "8px" }}>
+                Education
+              </div>
+              <div style={{ marginLeft: "8px", marginRight: "8px" }}>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">B.E. in Computer Science and Eng.</div>
+                    <div className="text-secondary">CGPA : 8.93</div>
                     <div className="text-secondary">
                       Walchand Institute of Technology
                     </div>
                     <div className="text-secondary">
                       Sep 2015 - Apr 2019 , Solapur
                     </div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>HSC</div>
-                  <div>Percentage : 77.69%</div>
-                  <div className=" text-white ">
-                    <div className="text-secondary"> Sangameshwar College</div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">HSC</div>
+                    <div className="text-secondary">Percentage : 77.69%</div>
+                    <div className="text-secondary">Sangameshwar College</div>
                     <div className="text-secondary"> Feb 2015 , Solapur</div>
-                  </div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>SSC</div>
-                  <div>Percentage : 95.09%</div>
-                  <div className=" text-white ">
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">SSC</div>
+                    <div className="text-secondary">Percentage : 95.09%</div>
                     <div className="text-secondary"> Indian Model School</div>
                     <div className="text-secondary"> Mar 2013 , Solapur</div>
-                  </div>
-                </li>
-              </ul>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li className="list-group-item bg-dark text-white no-border-top">
-              <div className="h3"> Achievements </div>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Infosys certified AWS Cloud practitioner</div>
-                  <div className="text-secondary">Infosys Ltd. 2021</div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Infosys certified Angular developer</div>
-                  <div className="text-secondary">Infosys Ltd. 2019</div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Among top 500 of HackwithInfy</div>
-                  <div className="text-secondary">Infosys Ltd. 2018</div>
-                </li>
-              </ul>
+            <li className="list-group-item bg-dark text-white no-border-top no-border-bot">
+              <div className="h3" style={{ paddingTop: "8px" }}>
+                Achievements
+              </div>
+              <div style={{ marginLeft: "8px", marginRight: "8px" }}>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">
+                      Infosys certified AWS Cloud practitioner
+                    </div>
+                    <div className="text-secondary">Infosys Ltd. 2021</div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">
+                      Infosys certified Angular developer
+                    </div>
+                    <div className="text-secondary">Infosys Ltd. 2019</div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="h6">Among top 500 of HackwithInfy</div>
+                    <div className="text-secondary">Infosys Ltd. 2018</div>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li className="list-group-item bg-dark text-white no-border-top">
-              <div className="h3"> Interests </div>
-              <ul className="list-group list-group-flush list-group-horizontal row">
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Online multiplayer gaming</div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Watching anime / web series</div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Learning and making use of new technologies</div>
-                </li>
-                <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
-                  <div>Solving problems in day to day life</div>
-                </li>
-              </ul>
+            <li className="list-group-item bg-dark text-white no-border-top no-border-bot">
+              <div className="h3" style={{ paddingTop: "8px" }}>
+                Interests
+              </div>
+              <div style={{ marginLeft: "8px", marginRight: "8px" }}>
+                <ul className="list-group list-group-flush list-group-horizontal row">
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">
+                      Online multiplayer gaming
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">
+                      Watching anime / web series
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">
+                      Learning and making use of new technologies
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">
+                      Solving problems in day to day life
+                    </div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">{""}</div>
+                  </li>
+                  <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
+                    <div className="text-secondary">{""}</div>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>

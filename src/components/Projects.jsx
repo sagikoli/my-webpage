@@ -16,7 +16,7 @@ function Projects() {
             justifyContent: "space-between",
           }}
         >
-          <h1 className=" h1 ms-5 ps-2 ">Projects</h1>
+          <h1 className=" h1 ms-5 ps-2 color-dusky">Projects</h1>
         </div>
       </div>
       <div className="row ">
@@ -25,7 +25,7 @@ function Projects() {
             <li className="list-group-item bg-dark text-white no-border-top">
               <div style={{ display: "flex", alignItems: "center" }}>
                 <FontAwesomeIcon className="me-2" size="sm" icon={faCloud} />
-                Cloud Modernization Platform
+                <div className="color-dusky">Cloud Modernization Platform</div>
               </div>
               <ul
                 className="text-secondary fs-6"
@@ -46,7 +46,7 @@ function Projects() {
                   size="sm"
                   icon={faShoppingCart}
                 />
-                Ecommerce - Hoopla
+                <div className="color-dusky"> Ecommerce - Hoopla</div>
               </div>
               <ul
                 className="text-secondary fs-6"
@@ -63,7 +63,7 @@ function Projects() {
             <li className="list-group-item bg-dark text-white">
               <div style={{ display: "flex", alignItems: "center" }}>
                 <FontAwesomeIcon className="me-2" size="sm" icon={faStore} />
-                Ecommerce - SecureCart
+                <div className="color-dusky"> Ecommerce - SecureCart</div>
               </div>
               <ul
                 className="text-secondary fs-6"

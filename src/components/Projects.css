@@ -21,3 +21,7 @@ li.bg-dark {
 li.no-border-top {
   border-top: none !important;
 }
+
+.text-secondary {
+  line-height: 1.5 !important;
+}

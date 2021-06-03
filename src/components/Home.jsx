@@ -9,7 +9,7 @@ function Home() {
   };
   return (
     <div className="container-fluid d-flex flex-column flex-grow-1 ">
-      <div className="row justify-content-center align-items-center flex-column  flex-grow-1 ">
+      <div className="row justify-content-center align-items-center flex-column  flex-grow-1 main-row">
         <div className="col-lg-8 ">
           <div className="row align-items-center" style={{ maxHeight: "50vh" }}>
             <div className="col-lg-5 text-center">

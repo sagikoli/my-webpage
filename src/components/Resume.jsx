@@ -138,7 +138,11 @@ function Resume() {
           >
             Resume
           </h1>
-          <span style={{ cursor: "pointer" }}>
+          <span
+            style={{ cursor: "pointer" }}
+            className="custom-tooltip left-tooltip"
+            data-tooltip="Click here to download resume"
+          >
             <FontAwesomeIcon
               className="download"
               size="lg"
@@ -251,8 +255,8 @@ function Resume() {
                 </ul>
                 <ul className="list-group list-group-flush list-group-horizontal row ">
                   <li className="list-group-item bg-dark text-white col-md-6">
-                    <span className="h6">
-                      AWS (Infosys certified cloud practitioner)
+                    <span className="h6 ">
+                      Amazon Web Services (AWS certified cloud practitioner)
                     </span>
                     <div className="progress mt-2">
                       <div
@@ -404,9 +408,17 @@ function Resume() {
                 <ul className="list-group list-group-flush list-group-horizontal row">
                   <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
                     <div className="h6">
-                      Infosys certified AWS Cloud practitioner
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className="custom-tooltip bottom-tooltip"
+                        data-tooltip="Click here to see badge"
+                        href="https://www.credly.com/badges/1090ded1-f2f9-4ec1-b484-2b3e140ccda6"
+                      >
+                        AWS certified cloud practitioner
+                      </a>
                     </div>
-                    <div className="text-secondary">Infosys Ltd. 2021</div>
+                    <div className="text-secondary">Valid till : July 2024</div>
                   </li>
                   <li className="list-group-item bg-dark text-white col-md-4 no-border-bot">
                     <div className="h6">
